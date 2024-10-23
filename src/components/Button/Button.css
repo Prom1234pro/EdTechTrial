@@ -1,0 +1,70 @@
+/* General Button Adjustments for All Sizes */
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2em;
+  padding: 12px 19px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Button Text Adjustments */
+button {
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+/* LIGHT VARIANT */
+.button.light {
+  background-color: #f5f5f5;
+}
+
+.btn.light {
+  background-color: #f5f5f5;
+  color: #002f49e3;
+}
+
+/* DARK VARIANT */
+.button.dark {
+  background-color: rgb(0, 47, 73);
+}
+
+.btn.dark {
+  background-color: rgb(0, 47, 73);
+  color: #f8fbfd;
+}
+
+/* Hover Effects */
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .button {
+    width: 100%; /* Full width for smaller screens */
+    padding: 14px 16px;
+  }
+
+  button {
+    font-size: 16px; /* Slightly smaller text */
+    letter-spacing: 0.8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    padding: 12px;
+    border-radius: 1.5em; /* Smaller border radius */
+  }
+
+  button {
+    font-size: 14px;
+  }
+}

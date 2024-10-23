@@ -1,0 +1,29 @@
+.take-control {
+  background-color: #0e1e2f;
+  padding: 100px;
+  background-image: linear-gradient(#0e1e2f 0%, #1a3b5d 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 55px;
+  border-radius: 15px;
+}
+
+.take-control h2 {
+  font-size: 36px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  line-height: 49px;
+  color: #f8fbfd; /* Bright white for the heading */
+}
+
+.take-control p {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 50%;
+  font-weight: 400;
+  text-align: center;
+  color: #f8fbfd; /* Slightly off-white for the paragraph text */
+}

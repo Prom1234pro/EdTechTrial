@@ -1,0 +1,114 @@
+.plans {
+  margin: 55px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.plans h2 {
+  color: #4b8bbe;
+  text-align: center;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 0px;
+}
+
+.plans p {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #041822;
+  margin-bottom: 60px;
+}
+
+.plan-cards {
+  display: flex;
+}
+
+.plan-cards > div {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.plan-card {
+  width: 310px;
+  background-color: white;
+  margin: 5px 10px;
+  padding: 25px;
+  padding-bottom: 0;
+  border-radius: 20px;
+}
+
+.plan-card h4 {
+  color: #041822;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.plan-card p,
+.plan-card span {
+  color: #041822;
+  font-size: 20px;
+}
+
+.plan-card > div {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.plan-card span {
+  display: block;
+  font-size: 15px;
+  margin-left: 6px;
+  margin-bottom: 7px;
+  font-weight: 500;
+}
+
+.plan-card.card-quarterly {
+  background-color: #002f49;
+  color: #f8fbfd;
+}
+
+.middle {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #002f49;
+}
+
+.bottom-cover {
+  position: absolute;
+  background-color: #e2e9f6;
+  top: 58%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.middle h4 {
+  color: #f8fbfd;
+}
+
+.middle p,
+.middle span {
+  color: #f8fbfdd3;
+}
+
+.bottom-cover .btn-save {
+  padding: 7px;
+  font-weight: 700;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

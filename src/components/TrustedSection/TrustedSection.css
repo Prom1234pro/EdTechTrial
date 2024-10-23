@@ -1,0 +1,28 @@
+.trusted {
+  margin: 55px;
+  margin-top: 75px;
+}
+
+.trusted h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #041822;
+  text-align: center;
+}
+
+.schools {
+  display: flex;
+  justify-content: space-between;
+}
+
+.school-image__text {
+  display: flex;
+  align-items: center;
+}
+
+.school-image__text > div {
+  color: #59676e;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 6px;
+}

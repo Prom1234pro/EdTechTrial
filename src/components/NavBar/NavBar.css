@@ -1,0 +1,86 @@
+.nav-wrapper {
+  z-index: 999;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+/* TOP PAGE SECTION */
+.top-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 19px;
+  background-color: #e2e9f6;
+  line-height: 17px;
+}
+
+.top-page__text {
+  color: #4b8bbe;
+  margin-right: 5px;
+  word-spacing: 0.001em;
+}
+
+.top-page__pricing {
+  color: #002f49f5;
+  margin-left: 5px;
+  text-decoration-color: #04182254;
+}
+
+/* NAV SECTION */
+.nav-container {
+  background-color: #4b8bbe;
+  padding: 17px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 55px;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #f8fbfdde;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links > li {
+  margin-right: 60px;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}
+
+.nav-actions > .log-in {
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+  align-items: center;
+}
+
+.nav-actions a {
+  font-weight: 700;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* Responsive Navbar for Medium to Large Screens */
+@media (max-width: 601px) {
+  .nav-links > li {
+    margin-right: 40px;
+  }
+  .nav-actions > .log-in {
+    margin-right: 15px;
+  }
+}

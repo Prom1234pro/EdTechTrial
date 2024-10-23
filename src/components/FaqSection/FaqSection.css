@@ -1,0 +1,127 @@
+/* General page styling */
+.faq-page {
+  display: flex;
+  justify-content: space-between;
+  margin: 55px;
+}
+
+/* FAQ section */
+.faq-section {
+  flex: 1;
+}
+
+.faq-section h2 {
+  font-size: 36px;
+  color: #041822;
+  margin-bottom: 10px;
+}
+
+.faq-section p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #59676e;
+  margin-bottom: 20px;
+}
+
+/* FAQ list */
+.faq-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.faq-item {
+  padding: 15px 0;
+  margin-bottom: 15px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.faq-item.active {
+  background-color: #dfe9f3;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #041822;
+}
+
+.faq-icon {
+  border: 2px solid #002f49;
+  width: 20px;
+  height: 20px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #002f49;
+  text-align: center;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  color: #59676e;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Contact card */
+.contact-card {
+  background-color: #0e3a60;
+  color: white;
+  height: 300px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  margin-top: 150px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.avatar-group img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: -15px;
+}
+
+.avatar-group img.center {
+  z-index: 998;
+  width: 60px;
+  height: 60px;
+  transform: translateY(-5px);
+}
+
+.contact-card h3 {
+  margin: 0;
+  margin-top: 30px;
+  color: #f8fbfd;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contact-card p {
+  margin: 0;
+  font-size: 17px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #f8fbfde3;
+}
